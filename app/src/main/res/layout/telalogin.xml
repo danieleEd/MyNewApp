@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TelaLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dani.mynewapp.MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:text="Login"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="E-mail"
+        android:textSize="24dp"
+        android:id="@+id/e_mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Senha"
+        android:textSize="24dp"
+        android:id="@+id/senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Logar" />
+
+    <TextView
+        android:id="@+id/cadastrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textSize="15sp"
+        android:text="Cadastrar"
+        android:inputType=""/>
+
+    <TextView
+        android:id="@+id/esqueceuSenha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:gravity="right"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Esqueceu a Senha?"
+        android:inputType=""/>
+
+</LinearLayout>

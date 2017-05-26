@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/FormCadastro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="Formulário de Cadastro"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:text="Nome:"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/birth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:text="Dt. Nascimento:"/>
+
+    <EditText
+        android:id="@+id/txtBirth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="datetime" />
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sexo" />
+
+    <RadioGroup
+        android:id="@+id/radioGenero"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/Masculino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Masculino"/>
+
+        <RadioButton
+            android:id="@+id/Feminino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Feminino" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/e_mail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:text="E-mail"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Cadastrar" />
+
+</LinearLayout>
