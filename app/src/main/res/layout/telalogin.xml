@@ -50,7 +50,8 @@
         android:gravity="left"
         android:textSize="15sp"
         android:text="Cadastrar"
-        android:inputType=""/>
+        android:inputType=""
+        android:onClick="cadastrar"/>
 
     <TextView
         android:id="@+id/esqueceuSenha"
